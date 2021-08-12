@@ -8,6 +8,7 @@ The function resented can be copied to the Development Tools console which will 
 
 This function will then Select all the instances of div tags with a class attribute of [post-type] and store the instances in a list.
 We then loop ever the list, and with every iteration, we focus on the instance of a div and get the following:
+
 1). Get a [a] tag which on the render represents the title of the div elements' content. We will then get the [href'] attribute which holds the URL and the text which represents the title text.
 
 2). Target the [img], which in the instance there is only one, and get the [src] attribute to get the location of the image
